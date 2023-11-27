@@ -1,0 +1,14 @@
+.chart {
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #ffffff;
+    /* White background */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Adding a subtle shadow */
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Vertically center content */
+    height: 10rem;
+}

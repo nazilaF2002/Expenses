@@ -1,0 +1,51 @@
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    /* justify-content: center; */
+}
+
+.new-expense__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-expense__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.new-expense__actions {
+    text-align: right;
+}
+
+.new-expense__actions input[type="submit"] {
+    background: linear-gradient(to bottom, #6371c7, #5563c1);
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.new-expense__actions input[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.new-expense__actions input[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.12);
+}
